@@ -1,6 +1,6 @@
 #  Burger MVC
 
-This CRUD application allows the user to chose from the available burgers to "eat." After the burger the button to be eaten is clicked, the burger moves to the "Past Burgers" column.
+This CRUD application allows the user to chose from the available burgers to "eat." After the "eating time!" button is clicked, the burger moves to the "Out of stock" section. The user may also add a burger by entering a burger name in the input field and click the "add burger" button.
 
 ## Custom ORM
 
@@ -23,4 +23,4 @@ Content through routes. When the burger data is received from the database, hand
 
 ### Created by Amber Moreyra
 
-[Demo App on Heroku](https://vast-eyrie-52442.herokuapp.com/)
+[Demo App on Heroku](https://whispering-savannah-53079.herokuapp.com/)
