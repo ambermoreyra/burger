@@ -3,7 +3,7 @@
 <h2>Available burgers</h2>
 
 <ul>
-  {{#each burger_name}}
+  {{#each burgers}}
     {{#unless devoured}}
       {{> burgers/burger-block devoured=true}}
     {{/unless}}
@@ -13,10 +13,10 @@
 <h2>Out of stock</h2>
 
 <ul>
-  {{#each burger_name}}
+  {{#each burgers}}
     {{#if devoured}}
     <li>
-      {{name}}
+      {{burger_name}}
       </li>
     {{/if}}
   {{/each}}
